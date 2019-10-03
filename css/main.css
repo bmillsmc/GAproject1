@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #FFFFFF;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #a6a6a6;
+}
+
+main {
+
+}
+
+nav {
+	width: 40%;
+}
+
+aside {
+
+}
+
+div {
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+input {
+	padding: 1% 40% 1% 1%;
+	height: 50%;
+	margin: auto 0 auto 10%;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	margin: 2% 2%;
+}
+
+h4 {
+
+}
+
+a {
+
+}
+
+p {
+
+}
+
+button {
+
+}
+
+.headercenter {
+	position: relative;
+	height: 5%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
