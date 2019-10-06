@@ -4,12 +4,17 @@
 
 body {
 	color: #FFFFFF;
+	margin: 0;
+	font-family: "Times New Roman", serif;
+	background-color: red;
 }
 
 header {
 	display: flex;
-	justify-content: space-between;
-	background-color: #a6a6a6;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0);
+	
 }
 
 main {
@@ -17,7 +22,15 @@ main {
 }
 
 nav {
-	width: 40%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column: 7 / span 1;
+
+	/*margin-right: 10%;*/
+	/*justify-self: start;*/
+	
 }
 
 aside {
@@ -31,6 +44,7 @@ div {
 ul {
 	display: flex;
 	justify-content: space-around;
+	padding: 0;
 }
 
 footer {
@@ -40,12 +54,20 @@ footer {
 li {
 	list-style: none;
 	display: inline;
+
 }
 
 input {
-	padding: 1% 40% 1% 1%;
-	height: 50%;
-	margin: auto 0 auto 10%;
+	padding: 1% 20% 1% 7%;
+	height: 85%;
+	margin: auto 0 auto 0;
+	border-radius: 7px;
+	opacity: 0.5;
+	grid-column: 2 / span 5;
+	position: relative;
+	font-size: 16px;
+	color: black;
+	/*-webkit-filter:blur(5px);*/
 }
 
 h1 {
@@ -57,7 +79,12 @@ h2 {
 }
 
 h3 {
-	margin: 2% 2%;
+	margin: auto 0 auto 0;
+	font-size: 24px;
+	justify-self: center;
+	opacity: 1;
+	grid-column: 1 / span 1;
+
 }
 
 h4 {
@@ -65,7 +92,8 @@ h4 {
 }
 
 a {
-
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 p {
@@ -79,7 +107,27 @@ button {
 .headercenter {
 	position: relative;
 	height: 5%;
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 6fr;
 	width: 100%;
+
+
+}
+
+/*.iconholder {
+	grid-column: 2 / span 1;
+	width: 30%;
+	justify-self: start;
+	position: relative;
+}*/
+.magglassicon {
+	grid-column: 2 / span 1;
+	width: 20%;
+	justify-self: start;
+	margin: auto 0 auto 10%;
+	opacity: 0.5;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
