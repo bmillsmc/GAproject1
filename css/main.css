@@ -45,6 +45,7 @@ aside {
 	flex-direction: column;
 	justify-content: flex-start;
 	height: 100%;
+	max-width: 40%;
 	
 }
 
@@ -64,8 +65,9 @@ footer {
 
 li {
 	list-style: none;
-	display: inline;
-	border-radius: 2em;
+	display: flex;
+	justify-content: center;
+	border-radius: 1em;
 	transition: all 700ms ease;
 	text-align: center;
 }
@@ -75,8 +77,9 @@ li:hover {
 }
 
 input {
-	padding: 1% 20% 1% 7%;
+	padding: 1% 18% 1% 7%;
 	height: 85%;
+	max-height: 50px;
 	margin: auto 0 auto 0;
 	border-radius: 7px;
 	opacity: 0.5;
@@ -114,8 +117,10 @@ h4 {
 a {
 	text-decoration: none;
 	color: #FFFFFF;
-	/*padding: 1% 5% 1% 5%;*/
+	padding: 0.5rem 1rem;
 	transition: all 700ms ease;
+	text-align: center;
+	
 }
 
 a:hover {
@@ -152,6 +157,7 @@ button:focus {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 6fr;
+	/*grid-row-gap: 2%;*/
 	width: 100%;
 
 
@@ -168,7 +174,7 @@ button:focus {
 	width: 20%;
 	justify-self: start;
 	margin: auto 0 auto 10%;
-	opacity: 0.8;
+	opacity: 1;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -223,7 +229,7 @@ button:focus {
 	
 	
 	border-radius: 2em;
-	padding: 5% 10%;
+	
 	background-color: rgba(0,0,0,0.25);
 	display: flex;
 	flex-direction: column;
@@ -316,7 +322,7 @@ button:focus {
 	}
 
 	aside {
-
+		max-width: 75%;
 	}
 }
 
