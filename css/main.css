@@ -14,6 +14,7 @@ body {
 header {
 	display: flex;
 	justify-content: center;
+	/*align-items: center;*/
 	flex-direction: column;
 	background-color: rgba(0,0,0,0);
 	
@@ -64,7 +65,7 @@ footer {
 li {
 	list-style: none;
 	display: inline;
-	
+	border-radius: 2em;
 	transition: all 700ms ease;
 	text-align: center;
 }
@@ -92,7 +93,7 @@ h1 {
 }
 
 h2 {
-
+	font-size: 25px;
 }
 
 h3 {
@@ -113,7 +114,7 @@ h4 {
 a {
 	text-decoration: none;
 	color: #FFFFFF;
-	padding: 1% 5% 1% 5%;
+	/*padding: 1% 5% 1% 5%;*/
 	transition: all 700ms ease;
 }
 
@@ -137,11 +138,12 @@ button {
 
 button:hover {
 	cursor: pointer;
-	background-color: rgba(219,170,69,0.7);
+	/*background-color: rgba(219,170,69,0.7);*/
 }
 
 button:focus {
 	outline: 0;
+	box-shadow: none;
 }
 
 .headercenter {
@@ -180,14 +182,11 @@ button:focus {
 	
 }
 
-.mainarticlewrap {
-	grid-column: 1 / span 1;
-	grid-row: 2 / span 1;
-	
-	
-}
+
 
 .mainarticle {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -207,13 +206,14 @@ button:focus {
 	color: #0F0F0F;
 }
 
-button.choosedate:hover {
+/*button.choosedate:hover {
 	color: #FFFFFF;
 	background-color: #000000;
-}
+}*/
 
 .viewwork {
-	background-color: rgba(255,255,255,0.25);
+	background-color: rgba(0,0,0,0.25);
+	color: #FFFFFF;
 	/*-webkit-backdrop-filter: blur(5px);*/
 	/*backdrop-filter: blur(5px);*/
 	/*box-shadow: 0 0 10 rgba(255,255,255,0.5);*/
@@ -221,10 +221,14 @@ button.choosedate:hover {
 
 .course1, .course2 {
 	
-	border: 1px solid black;
+	
 	border-radius: 2em;
 	padding: 5% 10%;
-	background-color: rgba(255,255,255,0.25);
+	background-color: rgba(0,0,0,0.25);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30% 10%;
 }
 
 .course1 {
@@ -234,3 +238,92 @@ button.choosedate:hover {
 .course2 {
 	margin: 5% 0 40% 0;
 }
+
+@media screen and (max-width: 770px) {
+	button {
+		transition: initial;
+	}
+
+	.mainarticlecenter {
+		width: 85%;
+		display: initial;
+		margin: 5%;
+	}
+
+	.buttonwrapper {
+		width: 90%;
+	}
+
+	main {
+		flex-direction: column;
+	}
+
+	ul {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	li {
+		margin: 10px 0;
+		width: 50%;
+	}
+
+	a {
+		font-size: 30px;
+	}
+
+	.headercenter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.magglassicon {
+		opacity: 0;
+	}
+
+	.mainarticle {
+		align-items: center;
+	}
+
+	input {
+		width: 85%;
+		font-size: 25px;
+		padding: 1% 20% 1% 3%;
+	}
+
+	h1 {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 40px;
+		margin: 10px 0;
+
+	}
+
+	p {
+		text-align: center;
+		width: 85%;
+		font-size: 20px;
+	}
+
+	.course1, .course2 {
+		background-color: rgba(0,0,0,0.25);
+	}
+
+	aside {
+
+	}
+}
+
+/*@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}*/
