@@ -20,8 +20,8 @@ I'm always looking to learn and grow as a developer. Even though this is one of 
 
 If you're new to Github and still want to check out my code heres a step-by-step. 
 
-1. In your terminal 'cd' into the directory you would like the repo to install to
+1. In your terminal `cd` into the directory you would like the repo to install to
 2. Click the green "download or clone" and grab the SSH key to clone
-3. Use the command 'git clone [SSH key you just got]' to clone the repo down to your computer
-4. Open the code up in your favorite text editor (mines Sublime currently so I do 'subl .') and have a blast playing with my code!
+3. Use the command `git clone [SSH key you just got]` to clone the repo down to your computer
+4. Open the code up in your favorite text editor (mines Sublime currently so I do `subl .`) and have a blast playing with my code!
 
