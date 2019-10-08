@@ -6,4 +6,4 @@ This is a project I created for my portfolio during the Software Engineering Imm
 
 This is the image that my website is based on:
 
-![mockup image](https://cdn.dribbble.com/users/987467/screenshots/7221845/media/ef110e62e1e4dbe4ad31d01bf61f325e.png)
+![mockup image](images/mockupimage.png)
