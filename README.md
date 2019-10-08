@@ -4,4 +4,4 @@ This is a project I created for my portfolio during the Software Engineering Imm
 
 ## Mockup Image
 
-[This](https://dribbble.com/shots/7221845-Autumn-Photography-Course-Desktop-Website-Design/attachments/209538?mode=media) is the image that my website is based on.
+<a href="https://dribbble.com/shots/7221845-Autumn-Photography-Course-Desktop-Website-Design/attachments/209538?mode=media" target="_blank">This</a> is the image that my website is based on.
